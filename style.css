@@ -30,8 +30,7 @@ body {
 }
 .calculator_input,
 .calculator_input_equal,
-.calculator_input_c,
-.calculator_input_dot {
+.calculator_input_c {
     font-size: 30px;
     height: 100px;
     width: 20%;
@@ -44,13 +43,11 @@ body {
 }
 .calculator_input:active,
 .calculator_input_equal:active,
-.calculator_input_c:active,
-.calculator_input_dot:active {
+.calculator_input_c:active {
     font-size: 40px;
 }
 .calculator_input:hover,
 .calculator_input_equal:hover,
-.calculator_input_c:hover,
-.calculator_input_dot:hover {
+.calculator_input_c:hover {
     background: #1c8a4a;
 }
